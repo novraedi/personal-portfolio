@@ -28,7 +28,7 @@ export default function Portofolio() {
       </h1>
       <div className="w-4/5 mx-auto grid grid-cols-1 md:grid-cols-3 gap-5">
         {data.map((item) => (
-          <Card key={item.id} imageUrl={item.imageUrl} {...item} />
+          <Card key={item.id} {...item} />
         ))}
       </div>
       <div className="mx-auto  w-4/5 mt-5 flex items-center justify-center">
